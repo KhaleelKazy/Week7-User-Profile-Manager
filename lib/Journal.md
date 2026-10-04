@@ -13,3 +13,10 @@ The purpose of GlobalKey<FormState>
 is the give a handle to a forms state
 so code outside can validate and store a result
 setState() rebuilds and shows its error.
+
+Journal3
+It was necessary to move the username state
+variable because UserBanner and ProfileForm
+are siblings that both need it, so the parent
+must own it.Leaving FavoriteButton inside it own widget 
+because no other widget needs it
